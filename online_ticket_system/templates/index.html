@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% set nav_title = _('NZ Maori Experience') %}
+
+{% block content %}
+<section class="hero">
+    <h1>{{ _('Welcome to New Zealand Maori Experience') }}</h1>
+    <p>{{ _('Discover the rich culture and traditions of the Maori people') }}</p>
+</section>
+
+<section class="booking-options">
+    <div class="booking-card">
+        <h2>{{ _('Maori Cultural Events') }}</h2>
+        <p>{{ _('Book tickets for authentic Maori experiences') }}</p>
+        <a href="{{ url_for('event.events') }}" class="btn">{{ _('Book Now') }}</a>
+    </div>
+    <div class="booking-card">
+        <h2>{{ _('Flight Tickets') }}</h2>
+        <p>{{ _('Find the best deals on flights to New Zealand') }}</p>
+        <a href="{{ url_for('flight.flights') }}" class="btn">{{ _('Book Flights') }}</a>
+    </div>
+</section>
+
+<section class="maori-culture">
+    <h2>{{ _('Maori Culture') }}</h2>
+    <p>{{ _('The Maori are the indigenous Polynesian people of mainland New Zealand. They have a rich history and culture that dates back over 1000 years. Maori culture is an integral part of New Zealand\'s identity and offers visitors a unique and enriching experience.') }}</p>  <!-- 文化描述 -->
+    <p>{{ _('Some key aspects of Maori culture include:') }}</p>
+    <ul>
+        <li>{{ _('Traditional performances like the haka') }}</li>
+        <li>{{ _('Intricate wood carvings and tattoo art (Ta moko)') }}</li>
+        <li>{{ _('Marae (meeting grounds) and their protocols') }}</li>
+        <li>{{ _('Hangi, a traditional method of cooking food') }}</li>
+    </ul>
+    <a href="{{ url_for('misc.maori_culture') }}" class="btn-outline-green">{{ _('Learn More') }}</a>
+</section>
+{% endblock %}

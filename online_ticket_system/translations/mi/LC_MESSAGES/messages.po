@@ -1,0 +1,790 @@
+# Māori translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-10-20 15:19+1300\n"
+"PO-Revision-Date: 2024-10-19 21:59+1300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: mi\n"
+"Language-Team: mi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: templates/base.html:7 templates/index.html:3 templates/my_bookings.html:3
+msgid "NZ Maori Experience"
+msgstr "Ngā Wheako Māori o Aotearoa"
+
+#: templates/base.html:15
+msgid "Language changed to"
+msgstr "Kua hurihia te reo ki"
+
+#: templates/base.html:16
+msgid "Welcome"
+msgstr "Nau mai"
+
+#: templates/base.html:17 templates/nav.html:6
+msgid "Home"
+msgstr "Kāinga"
+
+#: templates/base.html:18 templates/my_bookings.html:3
+msgid "My Bookings"
+msgstr "Āku Tono"
+
+#: templates/base.html:19 templates/nav.html:8
+msgid "Logout"
+msgstr "Takiputa"
+
+#: templates/base.html:20 templates/maori_culture.html:22
+msgid "Language"
+msgstr "Reo"
+
+#: templates/base.html:21 templates/nav.html:11
+msgid "Register"
+msgstr "Rēhita"
+
+#: templates/base.html:22 templates/nav.html:10
+msgid "Login"
+msgstr "Takiuru"
+
+#: templates/base.html:23
+msgid "Logged out successfully"
+msgstr "Kua angitū te whakaputa"
+
+#: templates/base.html:24
+msgid "Error"
+msgstr "Hapa"
+
+#: templates/base.html:25
+msgid "Please enter a valid email address"
+msgstr "Tēnā, tāuruhia he wāhitau īmēra tika"
+
+#: templates/base.html:26
+msgid "Logged in successfully"
+msgstr "Kua angitū te takiuru"
+
+#: templates/base.html:27
+msgid "Passwords do not match"
+msgstr "Kāore ngā kupuhipa e hāngai ana"
+
+#: templates/base.html:28
+msgid "An error occurred. Please try again."
+msgstr "I puta tētahi hapa. Tēnā, ngana anō."
+
+#: templates/base.html:45
+msgid "New Zealand Maori Experience"
+msgstr "Ngā Wheako Māori o Aotearoa"
+
+#: templates/base.html:45
+msgid ""
+"All rights\n"
+"            reserved."
+msgstr "Kua rāhuitia ngā mana katoa."
+
+#: templates/booking_success.html:3 templates/booking_success.html:5
+#: templates/flight_booking_success.html:3
+#: templates/flight_booking_success.html:5
+msgid "Booking Successful"
+msgstr "Kua angitū te tono"
+
+#: templates/booking_success.html:10 templates/flight_booking_success.html:10
+msgid "Booking Successful!"
+msgstr "Kua angitū te tono!"
+
+#: templates/booking_success.html:13 templates/event_detail.html:24
+#: templates/event_detail.html:147 templates/my_bookings.html:23
+msgid "Date"
+msgstr "Rā"
+
+#: templates/booking_success.html:14 templates/event_detail.html:47
+#: templates/event_detail.html:148 templates/my_bookings.html:24
+msgid "Location"
+msgstr "Wāhi"
+
+#: templates/booking_success.html:15 templates/event_detail.html:149
+#: templates/my_bookings.html:25
+msgid "Quantity"
+msgstr "Rahi"
+
+#: templates/booking_success.html:16 templates/event_detail.html:150
+#: templates/my_bookings.html:26
+msgid "Total Price"
+msgstr "Utu Katoa"
+
+#: templates/booking_success.html:17
+msgid "Booking ID"
+msgstr "Tono ID"
+
+#: templates/booking_success.html:19
+msgid "Thank you for your booking. We look forward to seeing you at the event!"
+msgstr "Ngā mihi mō tō tono. E hiahia ana mātou ki te kite i a koe i te hui!"
+
+#: templates/booking_success.html:20
+msgid "Back to Events"
+msgstr "Hoki ki ngā Takahanga"
+
+#: templates/event_detail.html:3 templates/event_detail.html:58
+msgid "Event Details"
+msgstr "Ngā Taipitopito o te Hui"
+
+#: templates/event_detail.html:31
+msgid "Time"
+msgstr "Wā"
+
+#: templates/event_detail.html:38 templates/my_bookings.html:47
+msgid "Price"
+msgstr "Utu"
+
+#: templates/event_detail.html:54 templates/my_bookings.html:28
+msgid "Description"
+msgstr "Whakaahuatanga"
+
+#: templates/event_detail.html:63
+msgid "Tickets"
+msgstr "Tīkiti"
+
+#: templates/event_detail.html:71 templates/flights.html:141
+#: templates/index.html:15
+msgid "Book Now"
+msgstr "Tīkina Ināianei"
+
+#: templates/event_detail.html:81 templates/event_detail.html:87
+#: templates/flights.html:54 templates/flights.html:60
+msgid "Confirm Booking"
+msgstr "Whakaū Tono"
+
+#: templates/event_detail.html:86 templates/flights.html:59
+msgid "Cancel"
+msgstr "Whakakore"
+
+#: templates/event_detail.html:140
+msgid "An error occurred while checking login status"
+msgstr "I puta tētahi hapa i te wā e tirohia ana te tūnga takiuru"
+
+#: templates/event_detail.html:146 templates/my_bookings.html:22
+msgid "Event"
+msgstr "Hui"
+
+#: templates/event_detail.html:174
+msgid "Booking failed"
+msgstr "I rahua te tono"
+
+#: templates/event_detail.html:179
+msgid "An error occurred during booking"
+msgstr "I puta tētahi hapa i te wā e tono ana"
+
+#: templates/events.html:3 templates/events.html:5 templates/index.html:13
+msgid "Maori Cultural Events"
+msgstr "Ngā Takahanga Ahurea Māori"
+
+#: templates/events.html:29
+msgid "View Details"
+msgstr "Tirohia ngā Taipitopito"
+
+#: templates/events.html:35
+msgid "Page"
+msgstr "Whārangi"
+
+#: templates/events.html:35
+msgid "of"
+msgstr "o"
+
+#: templates/events.html:38 templates/events.html:40
+msgid "Previous"
+msgstr "O Mua"
+
+#: templates/events.html:52 templates/events.html:54
+msgid "Next"
+msgstr "O Muri"
+
+#: templates/flight_booking_success.html:12
+msgid "Booking Details"
+msgstr "Ngā Taipitopito Tono"
+
+#: templates/flight_booking_success.html:13
+msgid "Booking ID:"
+msgstr "Tono ID:"
+
+#: templates/flight_booking_success.html:14
+msgid "Flight Number:"
+msgstr "Tau Rerenga:"
+
+#: templates/flight_booking_success.html:15 templates/flights.html:14
+#: templates/flights.html:201
+msgid "From:"
+msgstr "Mai i:"
+
+#: templates/flight_booking_success.html:16 templates/flights.html:23
+#: templates/flights.html:202
+msgid "To:"
+msgstr "Ki:"
+
+#: templates/flight_booking_success.html:17 templates/flights.html:32
+msgid "Date:"
+msgstr "Rā:"
+
+#: templates/flight_booking_success.html:18
+msgid "Departure Time:"
+msgstr "Te Wā Wehenga:"
+
+#: templates/flight_booking_success.html:19
+msgid "Arrival Time:"
+msgstr "Te Wā Taenga:"
+
+#: templates/flight_booking_success.html:20
+msgid "Seat Type:"
+msgstr "Momo Tūranga:"
+
+#: templates/flight_booking_success.html:21 templates/flights.html:206
+msgid "Price:"
+msgstr "Utu:"
+
+#: templates/flight_booking_success.html:23
+msgid "Thank you for choosing our airline. We wish you a pleasant journey!"
+msgstr ""
+"Ngā mihi mō tō kōwhiringa i tō mātou kamupene rererangi. Kia pai tō "
+"haerenga!"
+
+#: templates/flight_booking_success.html:24
+msgid "Book Another Flight"
+msgstr "Tīkina tētahi Rerenga Anō"
+
+#: templates/flights.html:3
+msgid "Flight Search"
+msgstr "Rapu Rerenga"
+
+#: templates/flights.html:5 templates/flights.html:40
+msgid "Search Flights"
+msgstr "Tīkina he Rerenga"
+
+#: templates/flights.html:10
+msgid "Search for Flights"
+msgstr "Tīkina he Rerenga"
+
+#: templates/flights.html:16
+msgid "Select departure"
+msgstr "Kōwhiria te wāhi wehe"
+
+#: templates/flights.html:25
+msgid "Select arrival"
+msgstr "Kōwhiria te wāhi taenga"
+
+#: templates/flights.html:47
+msgid ""
+"Enter your search criteria and click \"Search Flights\" to find available"
+" flights."
+msgstr ""
+"Tāuruhia ō paearu rapu ka pāwhiria \"Tīkina he Rerenga\" kia kitea ngā "
+"rerenga e wātea ana."
+
+#: templates/flights.html:82
+msgid ""
+"Departure and arrival airports cannot be the same. Please choose "
+"different airports."
+msgstr ""
+"Kāore e taea te kōwhiri i te wāhi wehe me te wāhi taenga kotahi. Tēnā, "
+"kōwhiria ngā taunga rerekē."
+
+#: templates/flights.html:105
+msgid "No flights found for the selected criteria."
+msgstr "Kāore i kitea he rerenga e hāngai ana ki ngā paearu kua kōwhiria."
+
+#: templates/flights.html:107
+msgid "Search Results"
+msgstr "Ngā Hua Rapu"
+
+#: templates/flights.html:112 templates/flights.html:278
+msgid "Flight"
+msgstr "Rerenga"
+
+#: templates/flights.html:117 templates/flights.html:121
+#: templates/flights.html:279 templates/flights.html:280
+msgid "at"
+msgstr "i"
+
+#: templates/flights.html:125
+msgid "Economy:"
+msgstr "Ōhanga:"
+
+#: templates/flights.html:125 templates/flights.html:129
+msgid "seats"
+msgstr "nga tūranga"
+
+#: templates/flights.html:129
+msgid "Business:"
+msgstr "Pakihi:"
+
+#: templates/flights.html:135
+msgid "Economy"
+msgstr "Ōhanga"
+
+#: templates/flights.html:138
+msgid "Business"
+msgstr "Pakihi"
+
+#: templates/flights.html:160
+msgid "An error occurred while searching for flights. Please try again."
+msgstr "I puta tētahi hapa i te wā e rapu ana i ngā rerenga. Tēnā, ngana anō."
+
+#: templates/flights.html:187
+msgid "An error occurred while checking login status:"
+msgstr "I puta tētahi hapa i te wā e tirohia ana te tūnga takiuru:"
+
+#: templates/flights.html:200
+msgid "Flight:"
+msgstr "Rerenga:"
+
+#: templates/flights.html:203
+msgid "Departure:"
+msgstr "Wehenga:"
+
+#: templates/flights.html:204
+msgid "Arrival:"
+msgstr "Taenga:"
+
+#: templates/flights.html:205
+msgid "Cabin:"
+msgstr "Kāpene:"
+
+#: templates/flights.html:230
+msgid "Booking failed:"
+msgstr "I rahua te tono:"
+
+#: templates/flights.html:235
+msgid "An error occurred. Please try again later."
+msgstr "I puta tētahi hapa. Tēnā, ngana anō ā muri ake nei."
+
+#: templates/index.html:7
+msgid "Welcome to New Zealand Maori Experience"
+msgstr "Nau mai ki ngā Wheako Māori o Aotearoa"
+
+#: templates/index.html:8
+msgid "Discover the rich culture and traditions of the Maori people"
+msgstr "Tūhuratia ngā tikanga me ngā ahurea hīhiri o te iwi Māori"
+
+#: templates/index.html:14
+msgid "Book tickets for authentic Maori experiences"
+msgstr "Tīkina he tīkiti mō ngā wheako Māori tūturu"
+
+#: templates/index.html:18
+msgid "Flight Tickets"
+msgstr "Ngā Tīkiti Rererangi"
+
+#: templates/index.html:19
+msgid "Find the best deals on flights to New Zealand"
+msgstr "Kimihia ngā utu pai mō ngā rerenga ki Aotearoa"
+
+#: templates/index.html:20
+msgid "Book Flights"
+msgstr "Tīkina he Rerenga"
+
+#: templates/index.html:25 templates/maori_culture.html:3
+msgid "Maori Culture"
+msgstr "Ahurea Māori"
+
+#: templates/index.html:26
+msgid ""
+"The Maori are the indigenous Polynesian people of mainland New Zealand. "
+"They have a rich history and culture that dates back over 1000 years. "
+"Maori culture is an integral part of New Zealand's identity and offers "
+"visitors a unique and enriching experience."
+msgstr ""
+"Ko te iwi Māori ngā tāngata whenua o te whenua matua o Aotearoa. He "
+"hītori, he ahurea whānui tō rātou e hoki ana ki tua atu i te 1000 tau. Ko"
+" te ahurea Māori he wāhanga nui o te tuakiri o Aotearoa, ā, ka tuku i ngā"
+" manuhiri he wheako ahurei, he whakangao hoki."
+
+#: templates/index.html:27
+msgid "Some key aspects of Maori culture include:"
+msgstr "Ko ētahi āhuatanga matua o te ahurea Māori ko ngā e whai ake nei:"
+
+#: templates/index.html:29
+msgid "Traditional performances like the haka"
+msgstr "Ngā whakaaturanga tuku iho pēnei i te haka"
+
+#: templates/index.html:30
+msgid "Intricate wood carvings and tattoo art (Ta moko)"
+msgstr "Ngā whakairo rākau me ngā mahi moko (Ta moko)"
+
+#: templates/index.html:31
+msgid "Marae (meeting grounds) and their protocols"
+msgstr "Ngā marae me ā rātou kawa"
+
+#: templates/index.html:32
+msgid "Hangi, a traditional method of cooking food"
+msgstr "Hāngī, he tikanga tunu kai tuku iho"
+
+#: templates/index.html:34
+msgid "Learn More"
+msgstr "Ako Anō"
+
+#: templates/maori_culture.html:10
+msgid "Introduction"
+msgstr "Kupu Whakataki"
+
+#: templates/maori_culture.html:7
+msgid "Maori Culture: The Heart of New Zealand"
+msgstr "Te Ahurea Māori: Te Ngākau o Aotearoa"
+
+#: templates/maori_culture.html:11
+msgid ""
+"The Maori are the indigenous Polynesian people of New Zealand (Aotearoa),"
+" with a rich history spanning over 1000 years. Their culture is an "
+"integral part of New Zealand's identity, offering a unique window into "
+"Polynesian traditions and values."
+msgstr ""
+"Ko te iwi Māori ngā tāngata whenua o te whenua matua o Aotearoa. He "
+"hītori, he ahurea whānui tō rātou e hoki ana ki tua atu i te 1000 tau. Ko"
+" te ahurea Māori he wāhanga nui o te tuakiri o Aotearoa, ā, ka tuku i ngā"
+" manuhiri he wheako ahurei, he whakangao hoki."
+
+#: templates/maori_culture.html:16
+msgid "Origins and History"
+msgstr ""
+
+#: templates/maori_culture.html:17
+msgid ""
+"Maori ancestors were among the first Polynesian voyagers to settle in New"
+" Zealand, arriving in several waves of canoe voyages between 1250 and "
+"1300 CE. Over centuries, they developed a distinct culture adapted to the"
+" New Zealand environment."
+msgstr ""
+"Ko ngā tīpuna Māori te hunga tuatahi o ngā waka Polynesia i tau mai ki "
+"Aotearoa, i tae mai rātou i roto i ngā hekenga waka maha i waenganui i te"
+" tau 1250 me te 1300 CE. Neke atu i ngā rau tau, ka whanake rātou i "
+"tētahi ahurea motuhake e urutau ana ki te taiao o Aotearoa."
+
+#: templates/maori_culture.html:18
+msgid ""
+"The Maori creation story tells of Ranginui (the sky father) and "
+"Papatuanuku (the earth mother), whose children separated them to create "
+"the world of light. This rich mythology forms the basis of Maori "
+"spiritual beliefs and their connection to the land."
+msgstr ""
+"Ko te pūrākau o te orokohanga Māori e pā ana ki a Ranginui (te matua o te"
+" rangi) me Papatuanuku (te whaea o te whenua), nā ā rāua tamariki i wehe "
+"i a rāua kia waihanga i te ao mārama. Ko tēnei pūrākau whai rawa te "
+"tūāpapa o ngā whakapono wairua Māori me tā rātou hononga ki te whenua."
+
+#: templates/maori_culture.html:23
+msgid ""
+"Te Reo Maori is the language of the Maori people. It's one of New "
+"Zealand's official languages and is experiencing a revival in usage and "
+"learning. The language is known for its beautiful, poetic qualities and "
+"its importance in preserving Maori culture."
+msgstr ""
+"Ko Te Reo Māori te reo o te iwi Māori. Koinei tētahi o ngā reo whaimana o"
+" Aotearoa, ā, kei te tipu anō tōna whakamahinga me te ako. E mōhiotia ana"
+" te reo mō tōna ātaahua, tōna ahurei i te whaihanga, me tōna hiranga i te"
+" tiaki i te ahurea Māori."
+
+#: templates/maori_culture.html:25
+msgid "Example phrase"
+msgstr "Tauira rerenga kōrero"
+
+#: templates/maori_culture.html:25
+msgid "Kia ora"
+msgstr "Kia ora"
+
+#: templates/maori_culture.html:25
+msgid "A greeting that means \"Hello\" or \"Be well\""
+msgstr "He mihi e kī ana \"Tēnā koe\" rānei \"Kia pai tō ora\""
+
+#: templates/maori_culture.html:30
+msgid "Traditional Arts"
+msgstr "Ngā Toi Tawhito"
+
+#: templates/maori_culture.html:32
+msgid "Carving (Whakairo)"
+msgstr "Te Whakairo"
+
+#: templates/maori_culture.html:32
+msgid ""
+"Intricate wood carvings that tell stories of ancestry and mythology. "
+"These carvings can be found on meeting houses, canoes, and various tools "
+"and ornaments."
+msgstr ""
+"Ko ngā whakairo rākau mātatoru e kōrero ana i ngā pūrākau o ngā tīpuna me"
+" ngā kōrero tuku iho. Ka kitea ēnei whakairo i runga i ngā whare hui, ngā"
+" waka, me ngā taputapu, taonga anō hoki."
+
+#: templates/maori_culture.html:33
+msgid "Weaving (Raranga)"
+msgstr "Te Raranga"
+
+#: templates/maori_culture.html:33
+msgid ""
+"The art of weaving flax into baskets, mats, and clothing. This craft is "
+"not only practical but also holds deep cultural significance."
+msgstr ""
+"Ko te toi o te raranga i te harakeke hei hanga i ngā kete, whāriki, me "
+"ngā kākahu. Ehara tēnei mahi toi i te mea whaihua anake, engari he tino "
+"nui hoki tōna tikanga ahurea."
+
+#: templates/maori_culture.html:34
+msgid "Ta Moko"
+msgstr "Te Tā Moko"
+
+#: templates/maori_culture.html:34
+msgid ""
+"Traditional Maori tattooing, with designs that are unique to the "
+"individual. These tattoos often represent a person's genealogy, social "
+"status, and personal achievements."
+msgstr ""
+"Ko te tā moko tawhito o te Māori, he toi e mōhiotia ana mō ngā hoahoa "
+"motuhake o te tangata. Ko ēnei moko ka tohu i te whakapapa, te tūnga "
+"pāpori, me ngā whakatutukitanga whaiaro."
+
+#: templates/maori_culture.html:40
+msgid "Customs and Traditions"
+msgstr "Ngā Tikanga me Ngā Taonga Tuku Iho"
+
+#: templates/maori_culture.html:42
+msgid "Powhiri"
+msgstr "Pōwhiri"
+
+#: templates/maori_culture.html:42
+msgid ""
+"A traditional Maori welcome ceremony that follows a specific protocol. It"
+" includes speeches, singing, and the famous hongi (pressing of noses) as "
+"a greeting."
+msgstr ""
+"Ko te pōwhiri tētahi tikanga tuku iho o te Māori hei pōwhiri i ngā "
+"manuhiri, ā, ka whai i tētahi kawa motuhake. Ka whai wāhi ki ngā "
+"whaikōrero, waiata, me te hongi (te pōhiri mā te pao ihu)."
+
+#: templates/maori_culture.html:43
+msgid "Haka"
+msgstr "Haka"
+
+#: templates/maori_culture.html:43
+msgid ""
+"A traditional war dance, now performed at various cultural events and "
+"sports matches. The haka is a powerful display of a group's pride, "
+"strength and unity."
+msgstr ""
+"Ko te haka tētahi kanikani pakanga tuku iho, i nāianei ka mahia i ngā hui"
+" ahurea, me ngā whakataetae hākinakina. He whakaaturanga kaha tēnei e "
+"whakaatu ana i te whakahī, te kaha, me te kotahitanga o te rōpū."
+
+#: templates/maori_culture.html:44
+msgid "Hangi"
+msgstr "Hāngi"
+
+#: templates/maori_culture.html:44
+msgid ""
+"A traditional method of cooking food using heated rocks buried in a pit "
+"oven. This communal cooking method is often used for special occasions "
+"and gatherings."
+msgstr ""
+"Ko te hāngi tētahi tikanga tawhito mō te tunu kai mā ngā kōhatu wera kua "
+"tanumia ki roto i te umu rua. Ka whakamahia tēnei tikanga tunu kai mō ngā"
+" hui motuhake me ngā nohonga ā-iwi."
+
+#: templates/maori_culture.html:49
+msgid "Marae"
+msgstr "Marae"
+
+#: templates/maori_culture.html:50
+msgid ""
+"The marae is the focal point of Maori communities. It's a complex of "
+"buildings where people gather for meetings, celebrations, funerals, and "
+"other important events. The main building on a marae is the wharenui "
+"(meeting house), which is considered the embodiment of an ancestor."
+msgstr ""
+"Ko te marae te pokapū o ngā hapori Māori. He kāhui whare e huihui ai ngā "
+"tāngata mō ngā hui, ngā whakanuitanga, ngā tangihanga, me ētahi atu "
+"kaupapa nui. Ko te wharenui te whare matua o te marae, e whakaarotia ana "
+"ko te tūāpapa o tētahi tūpuna."
+
+#: templates/maori_culture.html:54
+msgid "Mythology"
+msgstr "Ngā Kōrero Tuku Iho"
+
+#: templates/maori_culture.html:55
+msgid ""
+"Maori mythology is rich with stories of gods, demigods, and legendary "
+"heroes. These stories explain the creation of the world and natural "
+"phenomena. Some key figures include:"
+msgstr ""
+"Kei roto i ngā kōrero tuku iho a te Māori ngā kōrero mō ngā atua, ngā "
+"atua hautipua, me ngā toa rongonui. Ko ēnei kōrero ka whakamārama i te "
+"orokohanga o te ao, me ngā āhuatanga taiao. Ko ētahi tino tangata "
+"rongonui ko ēnei:"
+
+#: templates/maori_culture.html:57
+msgid "Maui"
+msgstr "Māui"
+
+#: templates/maori_culture.html:57
+msgid ""
+"A clever demigod known for fishing up the North Island of New Zealand and"
+" slowing the sun."
+msgstr ""
+"Ko Māui tētahi atua hautipua mō tōna mātau i te hī ake i Te Ika-a-Māui "
+"(Te Ika o Te Raki), me te whakawhāiti i te ra."
+
+#: templates/maori_culture.html:58
+msgid "Tane Mahuta"
+msgstr "Tāne Mahuta"
+
+#: templates/maori_culture.html:58
+msgid "The god of forests and birds, who separated the sky and earth."
+msgstr ""
+"Ko Tāne Mahuta te atua o ngā ngahere me ngā manu, nāna i wehe te rangi me"
+" te whenua."
+
+#: templates/maori_culture.html:59
+msgid "Tangaroa"
+msgstr "Tangaroa"
+
+#: templates/maori_culture.html:59
+msgid "The god of the sea."
+msgstr "Ko Tangaroa te atua o te moana."
+
+#: templates/maori_culture.html:65
+msgid "Contemporary Maori Culture"
+msgstr "Te Ahurea Māori o Nāianei"
+
+#: templates/maori_culture.html:66
+msgid ""
+"Today, Maori culture continues to thrive and evolve. It plays a "
+"significant role in New Zealand's national identity, influencing art, "
+"literature, sports, and politics. Many Maori are working to preserve "
+"their language and traditions while also embracing modern opportunities."
+msgstr ""
+"I ēnei rā, kei te puāwai, kei te whanake tonu te ahurea Māori. He wāhi "
+"nui tōna ki te tuakiri ā-motu o Aotearoa, ā, e whakaawe ana i ngā toi, "
+"ngā tuhinga, ngā hākinakina, me ngā tōrangapū. He maha ngā Māori e mahi "
+"ana ki te tiaki i tō rātou reo me ō rātou tikanga, i te wā e whāngai ana "
+"i ngā whai wāhitanga o te ao hōu."
+
+#: templates/maori_culture.html:67
+msgid ""
+"Maori culture is celebrated in various festivals throughout New Zealand, "
+"such as Matariki (Maori New Year) and Te Matatini (national kapa haka "
+"competition)."
+msgstr ""
+"Ka whakanuia te ahurea Māori i roto i ngā ahurei maha puta noa i "
+"Aotearoa, pēnei i a Matariki (Te Tau Hou Māori) me Te Matatini (te "
+"whakataetae kapa haka ā-motu)."
+
+#: templates/modals.html:4
+msgid "Select Language"
+msgstr "Kōwhiria te Reo"
+
+#: templates/modals.html:5
+msgid "English"
+msgstr "Ingarihi"
+
+#: templates/modals.html:6
+msgid "Te Reo Māori"
+msgstr "Te Reo Māori"
+
+#: templates/modals.html:13 templates/modals.html:48
+msgid "Log in"
+msgstr "Takiuru"
+
+#: templates/modals.html:16 templates/modals.html:36
+msgid "Email"
+msgstr "Īmēra"
+
+#: templates/modals.html:19 templates/modals.html:39
+msgid "Password"
+msgstr "Kupuhipa"
+
+#: templates/modals.html:22
+msgid "Continue"
+msgstr "Haere Tonu"
+
+#: templates/modals.html:25
+msgid "Forgot password?"
+msgstr "Kua wareware i a koe te kupuhipa?"
+
+#: templates/modals.html:25 templates/modals.html:33 templates/modals.html:45
+msgid "Sign up"
+msgstr "Rēhita"
+
+#: templates/modals.html:42
+msgid "Confirm password"
+msgstr "Whakaū Kupuhipa"
+
+#: templates/modals.html:48
+msgid "Already have an account?"
+msgstr "Kua rēhita kē koe?"
+
+#: templates/my_bookings.html:9
+msgid "All Bookings"
+msgstr "Ngā Tono Katoa"
+
+#: templates/my_bookings.html:10
+msgid "Flights"
+msgstr "Ngā Rerenga"
+
+#: templates/my_bookings.html:11
+msgid "Events"
+msgstr "Ngā Hui"
+
+#: templates/my_bookings.html:16
+msgid "No bookings found."
+msgstr "Kāore i kitea he tono."
+
+#: templates/my_bookings.html:21
+msgid "Event Booking"
+msgstr "Tono Hui"
+
+#: templates/my_bookings.html:27 templates/my_bookings.html:48
+msgid "Booking Date"
+msgstr "Rā Tono"
+
+#: templates/my_bookings.html:33
+msgid "No event bookings found."
+msgstr "Kāore i kitea he tono hui."
+
+#: templates/my_bookings.html:39
+msgid "Flight Booking"
+msgstr "Tono Rerenga"
+
+#: templates/my_bookings.html:40
+msgid "Flight Number"
+msgstr "Tau Rerenga"
+
+#: templates/my_bookings.html:41
+msgid "Airline"
+msgstr "Rererangi"
+
+#: templates/my_bookings.html:42
+msgid "From"
+msgstr "Mai i"
+
+#: templates/my_bookings.html:43
+msgid "To"
+msgstr "Ki"
+
+#: templates/my_bookings.html:44
+msgid "Departure"
+msgstr "Wehenga"
+
+#: templates/my_bookings.html:45
+msgid "Arrival"
+msgstr "Taenga"
+
+#: templates/my_bookings.html:46
+msgid "Seat Type"
+msgstr "Momo Tūranga"
+
+#: templates/my_bookings.html:49
+msgid "Status"
+msgstr "Tūnga"
+
+#: templates/my_bookings.html:54
+msgid "No flight bookings found."
+msgstr "Kāore i kitea he tono rerenga."
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ current_locale }}">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}{{ _('NZ Maori Experience') }}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}" />
+
+    {% block styles %}{% endblock %}
+
+    <script>
+        var isLoggedIn = `{{ 'true' if is_logged_in else 'false' }}` === "true";
+        var userEmail = "{{ user_email }}";
+        var translations = {
+            languageChanged: "{{ _('Language changed to') }}",
+            welcome: "{{ _('Welcome') }}",
+            home: "{{ _('Home') }}",
+            myBookings: "{{ _('My Bookings') }}",
+            logout: "{{ _('Logout') }}",
+            language: "{{ _('Language') }}",
+            register: "{{ _('Register') }}",
+            login: "{{ _('Login') }}",
+            loggedOut: "{{ _('Logged out successfully') }}",
+            error: "{{ _('Error') }}",
+            validEmailError: "{{ _('Please enter a valid email address') }}",
+            loggedIn: "{{ _('Logged in successfully') }}",
+            passwordsMismatch: "{{ _('Passwords do not match') }}",
+            genericError: "{{ _('An error occurred. Please try again.') }}",
+            langEN: "{{ url_for('misc.set_language', lang='en') }}",
+            langMI: "{{ url_for('misc.set_language', lang='mi') }}",
+            langZH: "{{ url_for('misc.set_language', lang='zh') }}"
+        };
+    </script>
+
+    {% block extra_head %}{% endblock %}
+</head>
+
+<body>
+    <header>{% include 'nav.html' with context %}</header>
+
+    <main>{% block content %}{% endblock %}</main>
+
+    <footer class="site-footer">
+        <p>
+            &copy; 2023 {{ _('New Zealand Maori Experience') }}. {{ _('All rights
+            reserved.') }}
+        </p>
+    </footer>
+
+    {% include 'modals.html' %}
+
+    <script src="{{ url_for('static', filename='js/base.js') }}"></script>
+
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>

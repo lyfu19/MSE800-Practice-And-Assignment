@@ -1,0 +1,51 @@
+<div id="languageModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>{{ _('Select Language') }}</h2>
+        <a href="#" onclick="changeLanguage('en')">{{ _('English') }}</a>
+        <a href="#" onclick="changeLanguage('mi')">{{ _('Te Reo Māori') }}</a>
+    </div>
+</div>
+
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>{{ _('Log in') }}</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <input type="email" id="login-email" name="email" placeholder="{{ _('Email') }}" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="login-password" name="password" placeholder="{{ _('Password') }}" required>
+            </div>
+            <div id="login-error" class="error-message"></div>
+            <button type="submit" class="btn">{{ _('Continue') }}</button>
+        </form>
+        <div class="login-options">
+            <a href="#">{{ _('Forgot password?') }}</a> · <a href="#" id="switch-to-register">{{ _('Sign up') }}</a>
+        </div>
+    </div>
+</div>
+
+<div id="registerModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>{{ _('Sign up') }}</h2>
+        <form id="registerForm">
+            <div class="form-group">
+                <input type="email" id="register-email" name="email" placeholder="{{ _('Email') }}" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="register-password" name="password" placeholder="{{ _('Password') }}" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="{{ _('Confirm password') }}" required>
+            </div>
+            <div id="register-error" class="error-message"></div>
+            <button type="submit" class="btn">{{ _('Sign up') }}</button>
+        </form>
+        <div class="login-options">
+            {{ _('Already have an account?') }} <a href="#" id="switch-to-login">{{ _('Log in') }}</a>
+        </div>
+    </div>
+</div>
